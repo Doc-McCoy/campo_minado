@@ -33,11 +33,11 @@ class CampoMinado
 	private function validaPalpite($x, $y) {
 
 		if ($x<0 || $x>count($this->campo)) {
-			echo "O primeiro valor digitado excede o tauleiro.";
+			echo "O primeiro valor digitado excede o tabuleiro.";
 			return false;
 		}
 		if ($y<0 || $y>count($this->campo[0])) {
-			echo "O segundo valor digitado excede o tauleiro.";
+			echo "O segundo valor digitado excede o tabuleiro.";
 			return false;
 		}
 		return true;
